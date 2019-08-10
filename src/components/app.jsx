@@ -6,7 +6,7 @@ import Gif from './gif';
 import GifList from './gif-list';
 
 /* Below variable contains API key */
-const GIPHY_API_KEY = '';
+const GIPHY_API_KEY = process.env.API_KEY;
 
 /* App contains all the other components */
 class App extends Component {
